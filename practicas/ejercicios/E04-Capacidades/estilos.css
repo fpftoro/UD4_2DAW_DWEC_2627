@@ -1,0 +1,22 @@
+:root {
+  --fondo: #ffffff;
+  --texto: #1b1f3b;
+  --borde: #c9c3e6;
+}
+:root[data-tema='oscuro'] {
+  --fondo: #1b1f3b;
+  --texto: #f1f1f1;
+  --borde: #4c4775;
+}
+body {
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: system-ui, sans-serif;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+td {
+  border-bottom: 1px solid var(--borde);
+  padding: 0.25rem 1rem 0.25rem 0;
+}

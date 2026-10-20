@@ -1,0 +1,18 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+.contador {
+  font-size: 3rem;
+  font-variant-numeric: tabular-nums;
+}
+.terminado {
+  color: #2b8a3e;
+}
+.pasado {
+  text-decoration: line-through;
+  opacity: 0.6;
+}

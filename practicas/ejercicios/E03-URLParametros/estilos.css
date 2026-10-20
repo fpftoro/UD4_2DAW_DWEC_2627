@@ -1,0 +1,13 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+th {
+  text-align: left;
+  padding-right: 1rem;
+}
+.error {
+  color: #c92a2a;
+}

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
+  <title id="t">UD4 · Objetos predefinidos y el navegador (BOM)</title>
+  <desc id="d">Portada de la unidad 4 del módulo Desarrollo Web en Entorno Cliente: el objeto window en la raíz de un árbol con document, location, history, navigator, screen y localStorage, junto a una ventana del navegador.</desc>
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1f3b"/>
+      <stop offset="1" stop-color="#2d1b4e"/>
+    </linearGradient>
+    <linearGradient id="acento" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f7df1e"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#fondo)"/>
+  <!-- Retícula decorativa -->
+  <g stroke="#ffffff" stroke-opacity="0.05">
+    <path d="M0 50H1200M0 100H1200M0 150H1200M0 200H1200M0 250H1200M0 300H1200M0 350H1200"/>
+    <path d="M100 0V400M200 0V400M300 0V400M400 0V400M500 0V400M600 0V400M700 0V400M800 0V400M900 0V400M1000 0V400M1100 0V400"/>
+  </g>
+
+  <!-- Texto -->
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="60" y="80" fill="#c9c3e6" font-size="22" letter-spacing="3">DESARROLLO WEB EN ENTORNO CLIENTE · 2DAW</text>
+    <rect x="60" y="100" width="120" height="6" rx="3" fill="url(#acento)"/>
+    <text x="60" y="185" fill="#ffffff" font-size="64" font-weight="700">UD4</text>
+    <text x="60" y="240" fill="#ffffff" font-size="34" font-weight="600">Objetos predefinidos</text>
+    <text x="60" y="282" fill="#ffffff" font-size="34" font-weight="600">y el navegador (BOM)</text>
+    <text x="60" y="340" fill="#f7df1e" font-size="22" font-weight="600">RA3 · Objetos predefinidos del lenguaje</text>
+  </g>
+
+  <!-- Árbol del BOM -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="16" text-anchor="middle">
+    <g stroke="#c9c3e6" stroke-width="2" fill="none">
+      <path d="M915 150 V175 M770 175 H1060 M770 175 V200 M867 175 V200 M963 175 V200 M1060 175 V200"/>
+      <path d="M915 175 V255 M818 255 H1012 M818 255 V275 M1012 255 V275"/>
+    </g>
+    <rect x="855" y="115" width="120" height="36" rx="18" fill="#f7df1e" fill-opacity="0.15" stroke="#f7df1e"/>
+    <text x="915" y="139" fill="#f7df1e" font-weight="700">window</text>
+
+    <rect x="725" y="200" width="90" height="32" rx="16" fill="#7fd6ff" fill-opacity="0.15" stroke="#7fd6ff"/>
+    <text x="770" y="221" fill="#7fd6ff">document</text>
+    <rect x="822" y="200" width="90" height="32" rx="16" fill="#ff7edb" fill-opacity="0.15" stroke="#ff7edb"/>
+    <text x="867" y="221" fill="#ff7edb">location</text>
+    <rect x="918" y="200" width="90" height="32" rx="16" fill="#ff7edb" fill-opacity="0.15" stroke="#ff7edb"/>
+    <text x="963" y="221" fill="#ff7edb">history</text>
+    <rect x="1015" y="200" width="90" height="32" rx="16" fill="#ff7edb" fill-opacity="0.15" stroke="#ff7edb"/>
+    <text x="1060" y="221" fill="#ff7edb">screen</text>
+
+    <rect x="760" y="275" width="116" height="32" rx="16" fill="#28c840" fill-opacity="0.15" stroke="#28c840"/>
+    <text x="818" y="296" fill="#28c840">navigator</text>
+    <rect x="940" y="275" width="144" height="32" rx="16" fill="#c9c3e6" fill-opacity="0.15" stroke="#c9c3e6"/>
+    <text x="1012" y="296" fill="#c9c3e6">localStorage</text>
+  </g>
+
+  <!-- Marco de ventana -->
+  <g transform="translate(700,60)">
+    <rect width="440" height="290" rx="12" fill="none" stroke="#c9c3e6" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="6 6"/>
+    <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+    <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+    <circle cx="60" cy="18" r="6" fill="#28c840"/>
+  </g>
+</svg>
